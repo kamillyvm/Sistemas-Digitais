@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/vanes/Documents/ProjQuartus/Lista 2/Questão 1/questao1.vhd
+source_file = 1, Waveform_Q1.vwf
+source_file = 1, C:/Users/vanes/Documents/ProjQuartus/Lista 2/Questão 1/Waveform1.vwf
+source_file = 1, C:/Users/vanes/Documents/ProjQuartus/Lista 2/Questão 1/db/projQuartus.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = projQuartus
+instance = comp, \b~I , b, projQuartus, 1
+instance = comp, \a~I , a, projQuartus, 1
+instance = comp, \s~0 , s~0, projQuartus, 1
+instance = comp, \s~I , s, projQuartus, 1

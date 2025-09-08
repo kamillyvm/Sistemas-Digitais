@@ -1,0 +1,19 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity questao3 is
+	port (
+		a, b, c, d: in std_logic;
+		a1: out std_logic;
+		a2: out std_logic;
+	);
+end questao3;
+
+architecture arc of questao3 is
+begin
+	a1 <= (not a and b and not c and not d)+(not a and b and not c and d)+
+			(not a and b and c and not d)+(not a and b and c and d);
+			
+	a2 <= (not a and not b and not c and d)+(a and not b and c and not d)+
+			(a and not b and not c and d)+(a and b and not c and d);
+end arc;

@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\vanes\Documents\ProjQuartus\Lista 2\Questão 1\simulation\qsim
+vprojQuartus
+Z1 Ij?4RP@1hRQYfPoXoSe:QA3
+Z2 VjCHZYX0l^DSKRQi0fHT3E2
+Z3 dC:\Users\vanes\Documents\ProjQuartus\Lista 2\Questão 1\simulation\qsim
+Z4 w1757266035
+Z5 8projQuartus.vo
+Z6 FprojQuartus.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nproj@quartus
+Z10 !s100 2]5J2WhIaY<`VI3RU=nEU0
+Z11 !s108 1757266038.692000
+Z12 !s107 projQuartus.vo|
+Z13 !s90 -work|work|projQuartus.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vprojQuartus_vlg_check_tst
+Z14 InMVd?iBQRR<]_W@@PllOO0
+Z15 VQT@P0>]L:NGQnCYLVT@a;1
+R3
+Z16 w1757266034
+Z17 8projQuartus.vt
+Z18 FprojQuartus.vt
+L0 59
+R7
+r1
+31
+Z19 !s108 1757266038.822000
+Z20 !s107 projQuartus.vt|
+Z21 !s90 -work|work|projQuartus.vt|
+R8
+Z22 nproj@quartus_vlg_check_tst
+Z23 !s100 9USaf99H4S^h[4[LZ1aoB2
+!i10b 1
+!s85 0
+!s101 -O0
+vprojQuartus_vlg_sample_tst
+Z24 IlULc7Rk[CGM9comjPfR:P2
+Z25 VVe3BdoEoQO@B6CkgU]bE^1
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+31
+R19
+R20
+R21
+R8
+Z26 nproj@quartus_vlg_sample_tst
+Z27 !s100 z?B3?jY]dASmQERZg;9512
+!i10b 1
+!s85 0
+!s101 -O0
+vprojQuartus_vlg_vec_tst
+Z28 Ion6Yk`[hf[AeGjH3496_`2
+Z29 V^^WU8Eb6g6[3Qz8]gA:Z32
+R3
+R16
+R17
+R18
+Z30 L0 154
+R7
+r1
+31
+R19
+R20
+R21
+R8
+Z31 nproj@quartus_vlg_vec_tst
+Z32 !s100 T>=k73fF=LLB]IN1<XEk02
+!i10b 1
+!s85 0
+!s101 -O0
+vquestao1
+Z33 I0UF6XG147TJcNU;F=5LI21
+Z34 Vm<EiICI=KGC`DLI;H`dK]0
+R3
+Z35 w1757267344
+Z36 8questao1.vo
+Z37 Fquestao1.vo
+L0 31
+R7
+r1
+31
+R8
+!i10b 1
+Z38 !s100 2`llIcPnECi1k7Zg29DWl3
+!s85 0
+Z39 !s108 1757267345.509000
+Z40 !s107 questao1.vo|
+Z41 !s90 -work|work|questao1.vo|
+!s101 -O0
+vquestao1_vlg_check_tst
+!i10b 1
+!s100 E9VIf1Xf^jBkGQPRUoUSC1
+IXSl3@IJoZ>CRX9cILgXzl3
+VLIF^0Oh0jbfSi]CCCBl>^2
+R3
+Z42 w1757267343
+Z43 8questao1.vt
+Z44 Fquestao1.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z45 !s108 1757267345.699000
+Z46 !s107 questao1.vt|
+Z47 !s90 -work|work|questao1.vt|
+!s101 -O0
+R8
+vquestao1_vlg_sample_tst
+!i10b 1
+!s100 VBo:k]09QR4]2a[l[_8iV2
+IoVnUeIFMOYo>Jc]jUU41Y3
+VLgjlCKG;=5Wn89edg?]o01
+R3
+R42
+R43
+R44
+L0 29
+R7
+r1
+!s85 0
+31
+R45
+R46
+R47
+!s101 -O0
+R8
+vquestao1_vlg_vec_tst
+!i10b 1
+!s100 :JEf0Lz?[GDe3ck9cN?;[2
+IUN<n:@PdbIJ5DnAE@CR^z2
+VbP6ne2N@8Y<Gc?jfBd?lS0
+R3
+R42
+R43
+R44
+R30
+R7
+r1
+!s85 0
+31
+R45
+R46
+R47
+!s101 -O0
+R8
