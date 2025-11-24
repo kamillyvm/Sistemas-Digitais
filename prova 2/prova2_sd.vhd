@@ -36,14 +36,17 @@ architecture arc of prova2_sd is
   end component;
 
   signal B_compl, B_final : std_logic_vector(5 downto 0);
-  signal soma_saida : std_logic_vector(5 downto 0);
+  signal soma_saida, c2_saida : std_logic_vector(5 downto 0);
 
 begin
   u1: complemento2 port map(B, B_compl);
   u2: mux port map(B, B_compl, sel, B_final);
   u3: somador port map(A, B_final, soma_saida, overflow);
+  
+  u4: mux port map(soma_saida, c2_saida, soma_saida(5), saida);
+  u5: complemento2 port map(soma_saida, c2_saida);
 
-  saida <= soma_saida;
   sinal <= soma_saida(5);
+
 
 end arc;
