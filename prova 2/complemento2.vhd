@@ -10,23 +10,18 @@ end complemento2;
 
 architecture arc of complemento2 is
 
-  signal temp : std_logic_vector(5 downto 0);
-  signal carry : std_logic := '1';
+  component somador
+    port (
+        ent1, ent2: in std_logic_vector(5 downto 0);
+        saida: out std_logic_vector(5 downto 0);
+        overflow: out std_logic
+    );
+  end component;
+
+  signal overflow: std_logic;
   
 begin
-
-  temp <= not B_in;
   
-  process(temp)
-    variable soma : std_logic_vector(5 downto 0);
-    variable C : std_logic := '1';
-     
-  begin
-    for i in 0 to 5 loop
-      soma(i) := temp(i) xor C;
-      C := temp(i) and C;
-    end loop;
-    B_out <= soma;
-  end process;
-  
+  is: somador port map(not (B_in), "000001", B_out, overflow);
+    
 end arc;
